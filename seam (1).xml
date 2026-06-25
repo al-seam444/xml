@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2024-08-30 06:15 PM
+5.0.102.104144 (104144)
+19b3a2b (Jun 22, 2023 8:58:22 AM)
+-->
+<scene title="⚔️RS SALMAN YT ☠️" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ff000000" totalTime="14299" fps="30" modifiedTime="1725020149390" amver="104144" ffver="106" am="com.alightcreative.motion/5.0.102.104144" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <media uri="content://com.android.providers.media.documents/document/image%3A1000006087" type="image/png" duration="0" orientation="0" infoUpdated="1725020135374" width="0" height="0" />
+  <media uri="content://com.android.providers.media.documents/document/video%3A1000005532" type="video/mp4" duration="83917000" orientation="0" infoUpdated="1725020135374" width="854" height="480" />
+  <embedScene id="10116237" label="Project" startTime="0" endTime="14299" fillType="intrinsic" mediaFillMode="fill" templatePPId="">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="Project" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ff000000" totalTime="14299" fps="30" modifiedTime="1725010777486" amver="104144" ffver="106" am="com.alightcreative.motion/5.0.102.104144" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+      <bookmark t="15983" />
+      <bookmark t="14283" />
+      <audio id="10046605" startTime="0" endTime="14299" src="content://media/external/video/media/1000310248" outTime="14299" mediaFillMode="fill" />
+      <shape id="10114081" label="20240821_202337.jpg" startTime="0" endTime="14299" fillType="media" fillImage="content://com.android.providers.media.documents/document/image%3A1000006087" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="890.666382,555.111084,0.000000" />
+        </transform>
+        <effect id="com.alightcreative.effects.fractalwarp4" locallyApplied="true">
+          <property name="offs" type="vec2">
+            <kf t="0.001119" v="0.000000,0.000000" />
+          </property>
+          <property name="mag" type="float" value="0.020000" />
+          <property name="scale" type="float">
+            <kf t="0.001119" v="1.000000" />
+            <kf t="1.117771" v="1.740000" />
+          </property>
+          <property name="intensity" type="float" value="0.500000" />
+          <property name="screenSpace" type="bool" value="true" />
+          <property name="octaves" type="float" value="7.000000" />
+        </effect>
+        <effect id="com.alightcreative.effects.dblur" locallyApplied="true">
+          <property name="strength" type="float">
+            <kf t="0.001119" v="0.300000" />
+            <kf t="0.133995" v="0.000000" />
+          </property>
+          <property name="angle" type="float" value="0.000000" />
+        </effect>
+        <effect id="com.alightcreative.effects.fade" locallyApplied="true">
+          <property name="inTime" type="float" value="0.100000" />
+          <property name="outTime" type="float" value="0.400000" />
+        </effect>
+        <property name="size" type="vec2" value="927.555664,540.000000" />
+      </shape>
+      <shape id="10114083" label="Dust and Scratch particles Template _ old screen _ Green Tech Video_z(480P).mp4" startTime="0" endTime="14299" fillType="media" blending="screen" fillVideo="content://com.android.providers.media.documents/document/video%3A1000005532" outTime="14299" mediaFillMode="fill" s=".rect">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+        </transform>
+        <gain value="0.000000" />
+        <property name="size" type="vec2" value="960.000000,539.500000" />
+      </shape>
+      <shape id="10114086" label="Rectangle 1 Copy" startTime="0" endTime="14299" fillType="color" blending="screen" mediaFillMode="fill" s=".rect">
+        <transform lockAspectRatio="false">
+          <location value="960.000000,540.000000,0.000000" />
+          <scale value="9.545001,5.295000" />
+        </transform>
+        <fillColor value="#ff000000" />
+        <path-stroke direction="centered" end-size="1.500000">
+          <color value="#ffffffff" />
+          <size value="9.000000" />
+        </path-stroke>
+        <shadow direction="outside">
+          <color value="#ffffffff" />
+          <size value="60.000000" />
+        </shadow>
+        <property name="size" type="vec2" value="100.000000,100.000000" />
+      </shape>
+      <audio id="10114159" startTime="0" endTime="14299" src="content://media/external/video/media/1000310476" outTime="14299" mediaFillMode="fill" />
+    </scene>
+  </embedScene>
+</scene>
